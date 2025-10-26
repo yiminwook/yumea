@@ -16,7 +16,7 @@
 </svelte:head>
 
 <!-- 종이질감 배경 -->
-<div class="relative min-h-screen bg-white">
+<main class="relative min-h-screen bg-white">
 	<!-- 종이질감 텍스처 -->
 	<div
 		class="absolute inset-0 opacity-20"
@@ -25,7 +25,7 @@
 
 	<div class="relative z-10 container mx-auto px-4 py-8">
 		<!-- 페이지 헤더 -->
-		<div class="mb-12 text-center">
+		<header class="mb-12 text-center">
 			<h1 class="mb-4 text-4xl font-bold text-black md:text-5xl">YUMEA MENU</h1>
 			<p
 				class="text-lg text-gray-600"
@@ -33,25 +33,25 @@
 			>
 				꿈을 꾸는 곳, 유메아에서 하루의 피로를 내려놓으세요
 			</p>
-		</div>
+		</header>
 
 		<!-- 메뉴 그리드 - 데스크톱 2열, 모바일 1열 -->
-		<div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 md:grid-cols-2">
+		<section class="mx-auto grid max-w-7xl grid-cols-1 gap-12 md:grid-cols-2">
 			<!-- 청소년 코스 -->
-			<div class="border-b-2 border-gray-200 pb-8">
-				<div class="mb-6 flex items-center justify-between">
-					<h3
+			<article class="border-b-2 border-gray-200 pb-8">
+				<header class="mb-6 flex items-center justify-between">
+					<h2
 						class="text-2xl text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						청소년 코스
-					</h3>
+					</h2>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						인기
 					</div>
-				</div>
+				</header>
 
 				<div class="mb-6 space-y-3">
 					<div class="flex items-center text-gray-700">
@@ -145,23 +145,23 @@
 						</li>
 					</ol>
 				</div>
-			</div>
+			</article>
 
 			<!-- 유메아 시그니처 -->
-			<div class="border-b-2 border-gray-200 pb-8">
-				<div class="mb-6 flex items-center justify-between">
-					<h3
+			<article class="border-b-2 border-gray-200 pb-8">
+				<header class="mb-6 flex items-center justify-between">
+					<h2
 						class="text-2xl text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						유메아 시그니처
-					</h3>
+					</h2>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
 						프리미엄
 					</div>
-				</div>
+				</header>
 
 				<div class="mb-6 space-y-3">
 					<div class="flex items-center text-gray-700">
@@ -286,23 +286,23 @@
 						</li>
 					</ol>
 				</div>
-			</div>
+			</article>
 
 			<!-- 유메 맘(산후) -->
-			<div class="border-b-2 border-gray-200 pb-8">
-				<div class="mb-6 flex items-center justify-between">
-					<h3
+			<article class="border-b-2 border-gray-200 pb-8">
+				<header class="mb-6 flex items-center justify-between">
+					<h2
 						class="text-2xl text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						유메 맘(산후)
-					</h3>
+					</h2>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						산후케어
 					</div>
-				</div>
+				</header>
 
 				<div class="mb-6 space-y-3">
 					<div class="flex items-center text-gray-700">
@@ -431,23 +431,23 @@
 						</li>
 					</ol>
 				</div>
-			</div>
+			</article>
 
 			<!-- 문제성 -->
-			<div class="border-b-2 border-gray-200 pb-8">
-				<div class="mb-6 flex items-center justify-between">
-					<h3
+			<article class="border-b-2 border-gray-200 pb-8">
+				<header class="mb-6 flex items-center justify-between">
+					<h2
 						class="text-2xl text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						문제성
-					</h3>
+					</h2>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						맞춤케어
 					</div>
-				</div>
+				</header>
 
 				<div class="mb-6 space-y-3">
 					<div class="flex items-center text-gray-700">
@@ -499,23 +499,23 @@
 						</li>
 					</ol>
 				</div>
-			</div>
+			</article>
 
 			<!-- 유메아 시그니처 + 모발 클리닉 -->
-			<div class="border-b-2 border-gray-200 pb-8 md:col-span-2">
-				<div class="mb-6 flex items-center justify-between">
-					<h3
+			<article class="border-b-2 border-gray-200 pb-8 md:col-span-2">
+				<header class="mb-6 flex items-center justify-between">
+					<h2
 						class="text-2xl break-keep text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						유메아 시그니처 + 모발 클리닉
-					</h3>
+					</h2>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						프리미엄
 					</div>
-				</div>
+				</header>
 
 				<div class="mb-6 space-y-3">
 					<div class="flex items-center text-gray-700">
@@ -555,9 +555,9 @@
 						제공합니다.
 					</p>
 				</div>
-			</div>
-		</div>
+			</article>
+		</section>
 	</div>
-</div>
+</main>
 
 <style></style>
