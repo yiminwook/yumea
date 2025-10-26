@@ -10,12 +10,6 @@
 		name="description"
 		content="꿈을 꾸는 곳, 유메아에서 하루의 피로를 내려놓으세요. 전문적인 두피 케어와 모발 관리를 제공합니다."
 	/>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&display=swap"
-		rel="stylesheet"
-	/>
 </svelte:head>
 
 <!-- 종이질감 배경 -->

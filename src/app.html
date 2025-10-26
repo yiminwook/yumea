@@ -4,6 +4,22 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- 폰트 최적화: preconnect 및 preload -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+		<link
+			rel="preload"
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&family=Fira+Mono:wght@400&display=swap"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
+		/>
+		<noscript
+			><link
+				rel="stylesheet"
+				href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&family=Fira+Mono:wght@400&display=swap"
+		/></noscript>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

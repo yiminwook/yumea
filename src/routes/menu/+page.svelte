@@ -7,12 +7,6 @@
 <svelte:head>
 	<title>Yumea | 유메아</title>
 	<meta name="description" content="꿈을  꾸는 곳 , 유메아에서  하루의 피로를 내려 놓으세요 " />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&display=swap"
-		rel="stylesheet"
-	/>
 </svelte:head>
 
 <!-- 종이질감 배경 -->
@@ -36,7 +30,7 @@
 		</header>
 
 		<!-- 메뉴 그리드 - 데스크톱 2열, 모바일 1열 -->
-		<section class="mx-auto grid max-w-7xl grid-cols-1 gap-12 md:grid-cols-2">
+		<section class="mx-auto grid max-w-7xl grid-cols-1 gap-12 sm:grid-cols-2">
 			<!-- 청소년 코스 -->
 			<article class="border-b-2 border-gray-200 pb-8">
 				<header class="mb-6 flex items-center justify-between">
@@ -502,7 +496,7 @@
 			</article>
 
 			<!-- 유메아 시그니처 + 모발 클리닉 -->
-			<article class="border-b-2 border-gray-200 pb-8 md:col-span-2">
+			<article class="border-b-2 border-gray-200 pb-8 sm:col-span-2">
 				<header class="mb-6 flex items-center justify-between">
 					<h2
 						class="text-2xl break-keep text-black"
