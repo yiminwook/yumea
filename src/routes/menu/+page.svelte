@@ -36,7 +36,7 @@
 		</div>
 
 		<!-- 메뉴 그리드 - 데스크톱 2열, 모바일 1열 -->
-		<div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-2">
+		<div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 md:grid-cols-2">
 			<!-- 청소년 코스 -->
 			<div class="border-b-2 border-gray-200 pb-8">
 				<div class="mb-6 flex items-center justify-between">
@@ -46,7 +46,11 @@
 					>
 						청소년 코스
 					</h3>
-					<div class="border border-black px-3 py-1 text-sm font-medium text-black">인기</div>
+					<div
+						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
+					>
+						인기
+					</div>
 				</div>
 
 				<div class="mb-6 space-y-3">
@@ -73,11 +77,11 @@
 						</svg>
 						<span class="text-xl font-bold">90,000원</span>
 					</div>
-					<div
+					<!-- <div
 						class="inline-block border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
 						단발이하 1만원 할인
-					</div>
+					</div> -->
 				</div>
 
 				<div class="border-t border-gray-200 pt-6">
@@ -152,7 +156,11 @@
 					>
 						유메아 시그니처
 					</h3>
-					<div class="border border-black px-3 py-1 text-sm font-medium text-black">프리미엄</div>
+					<div
+						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
+					>
+						프리미엄
+					</div>
 				</div>
 
 				<div class="mb-6 space-y-3">
@@ -179,14 +187,14 @@
 						</svg>
 						<span class="text-xl font-bold">150,000원</span>
 					</div>
-					<div class="flex flex-wrap gap-2">
+					<!-- <div class="flex flex-wrap gap-2">
 						<div class="border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700">
 							10회 회원 5% 할인
 						</div>
 						<div class="border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700">
 							현금 11회 + 매회 탄산 스파
 						</div>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="border-t border-gray-200 pt-6">
@@ -290,7 +298,7 @@
 						유메 맘(산후)
 					</h3>
 					<div
-						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
+						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						산후케어
 					</div>
@@ -320,7 +328,7 @@
 						</svg>
 						<span class="text-xl font-bold">150,000원</span>
 					</div>
-					<div class="flex flex-wrap gap-2">
+					<!-- <div class="flex flex-wrap gap-2">
 						<div
 							class="rounded-lg border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 						>
@@ -331,7 +339,7 @@
 						>
 							현금 11회 + 에센스
 						</div>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="border-t border-gray-200 pt-6">
@@ -435,7 +443,7 @@
 						문제성
 					</h3>
 					<div
-						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
+						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
 					>
 						맞춤케어
 					</div>
@@ -465,11 +473,11 @@
 						</svg>
 						<span class="text-xl font-bold">100,000원</span>
 					</div>
-					<div
+					<!-- <div
 						class="inline-block rounded-lg border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
 						10회 5% 할인
-					</div>
+					</div> -->
 				</div>
 
 				<div class="border-t border-gray-200 pt-6">
@@ -494,16 +502,18 @@
 			</div>
 
 			<!-- 유메아 시그니처 + 모발 클리닉 -->
-			<div class="border-b-2 border-gray-200 pb-8 lg:col-span-2">
+			<div class="border-b-2 border-gray-200 pb-8 md:col-span-2">
 				<div class="mb-6 flex items-center justify-between">
 					<h3
-						class="text-2xl text-black"
+						class="text-2xl break-keep text-black"
 						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
 					>
 						유메아 시그니처 + 모발 클리닉
 					</h3>
-					<div class="rounded-full border border-black px-3 py-1 text-sm font-medium text-black">
-						최고급
+					<div
+						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium whitespace-nowrap text-gray-700"
+					>
+						프리미엄
 					</div>
 				</div>
 
@@ -531,11 +541,11 @@
 						</svg>
 						<span class="text-xl font-bold">200,000원</span>
 					</div>
-					<div
+					<!-- <div
 						class="inline-block rounded-lg border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
 						10회 회원 5% 할인
-					</div>
+					</div> -->
 				</div>
 
 				<div class="rounded-lg border border-gray-200 bg-gray-50 p-6">
