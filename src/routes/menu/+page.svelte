@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&display=swap"
 		rel="stylesheet"
 	/>
 </svelte:head>
@@ -26,10 +26,10 @@
 	<div class="relative z-10 container mx-auto px-4 py-8">
 		<!-- 페이지 헤더 -->
 		<div class="mb-12 text-center">
-			<h1 class="mb-4 text-4xl font-bold text-black md:text-5xl">유메아 메뉴</h1>
+			<h1 class="mb-4 text-4xl font-bold text-black md:text-5xl">YUMEA MENU</h1>
 			<p
 				class="text-lg text-gray-600"
-				style="font-family: 'Dancing Script', cursive; font-size: 1.5rem; color: #D4AF37;"
+				style="font-family: 'Nanum Pen Script', cursive; font-size: 1.5rem; color: #374151;"
 			>
 				꿈을 꾸는 곳, 유메아에서 하루의 피로를 내려놓으세요
 			</p>
@@ -40,7 +40,12 @@
 			<!-- 청소년 코스 -->
 			<div class="border-b-2 border-gray-200 pb-8">
 				<div class="mb-6 flex items-center justify-between">
-					<h3 class="text-2xl font-bold text-black">청소년 코스</h3>
+					<h3
+						class="text-2xl text-black"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
+					>
+						청소년 코스
+					</h3>
 					<div class="border border-black px-3 py-1 text-sm font-medium text-black">인기</div>
 				</div>
 
@@ -80,56 +85,56 @@
 					<ol class="space-y-2">
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>1</span
 							>
 							진단
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>2</span
 							>
 							쿨브러쉬
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>3</span
 							>
 							플라즈마
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>4</span
 							>
 							두침욕
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>5</span
 							>
 							버블 두피 스케일링
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>6</span
 							>
 							샴푸
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>7</span
 							>
 							두피팩
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>8</span
 							>
 							두피냄새 제거용 토너
@@ -141,7 +146,12 @@
 			<!-- 유메아 시그니처 -->
 			<div class="border-b-2 border-gray-200 pb-8">
 				<div class="mb-6 flex items-center justify-between">
-					<h3 class="text-2xl font-bold text-black">유메아 시그니처</h3>
+					<h3
+						class="text-2xl text-black"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
+					>
+						유메아 시그니처
+					</h3>
 					<div class="border border-black px-3 py-1 text-sm font-medium text-black">프리미엄</div>
 				</div>
 
@@ -184,84 +194,84 @@
 					<ol class="space-y-2">
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>1</span
 							>
 							진단
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>2</span
 							>
 							쿨브러쉬 + 온열 EMS 림프 테라피
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>3</span
 							>
 							플라즈마
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>4</span
 							>
 							두침욕
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>5</span
 							>
 							두피 상태에 따른 스케일링
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>6</span
 							>
 							타카라 미스트
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>7</span
 							>
 							샴푸
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>8</span
 							>
 							두피팩
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>9</span
 							>
 							근막 마사지
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>10</span
 							>
 							두피 갈바닉
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>11</span
 							>
 							생체 전류 테라피
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>12</span
 							>
 							두피 드라이
@@ -273,7 +283,12 @@
 			<!-- 유메 맘(산후) -->
 			<div class="border-b-2 border-gray-200 pb-8">
 				<div class="mb-6 flex items-center justify-between">
-					<h3 class="text-2xl font-bold text-black">유메 맘(산후)</h3>
+					<h3
+						class="text-2xl text-black"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
+					>
+						유메 맘(산후)
+					</h3>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
@@ -324,84 +339,84 @@
 					<ol class="space-y-2">
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>1</span
 							>
 							진단
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>2</span
 							>
 							두피 괄사 + 온열 EMS 림프 테라피
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>3</span
 							>
 							플라즈마
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>4</span
 							>
 							두침욕
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>5</span
 							>
 							두피 상태에 따른 스케일링
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>6</span
 							>
 							적외선 온열
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>7</span
 							>
 							샴푸
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>8</span
 							>
 							두피팩
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>9</span
 							>
 							헤어 미스트
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>10</span
 							>
 							두피 갈바닉
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>11</span
 							>
 							생체 전류 마사지 (탈모방지 에센스)
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>12</span
 							>
 							두피 드라이
@@ -413,7 +428,12 @@
 			<!-- 문제성 -->
 			<div class="border-b-2 border-gray-200 pb-8">
 				<div class="mb-6 flex items-center justify-between">
-					<h3 class="text-2xl font-bold text-black">문제성</h3>
+					<h3
+						class="text-2xl text-black"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
+					>
+						문제성
+					</h3>
 					<div
 						class="rounded-full border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
 					>
@@ -457,14 +477,14 @@
 					<ol class="space-y-2">
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>1</span
 							>
 							진단
 						</li>
 						<li class="flex items-center text-gray-700">
 							<span
-								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm font-bold text-black"
+								class="mr-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-black text-sm text-black"
 								>2</span
 							>
 							두피상태에 알맞는 프로그램으로 진행
@@ -476,7 +496,12 @@
 			<!-- 유메아 시그니처 + 모발 클리닉 -->
 			<div class="border-b-2 border-gray-200 pb-8 lg:col-span-2">
 				<div class="mb-6 flex items-center justify-between">
-					<h3 class="text-2xl font-bold text-black">유메아 시그니처 + 모발 클리닉</h3>
+					<h3
+						class="text-2xl text-black"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 2.5rem; color: #374151;"
+					>
+						유메아 시그니처 + 모발 클리닉
+					</h3>
 					<div class="rounded-full border border-black px-3 py-1 text-sm font-medium text-black">
 						최고급
 					</div>

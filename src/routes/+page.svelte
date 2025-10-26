@@ -13,7 +13,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Pen+Script&family=Nanum+Brush+Script&display=swap"
 		rel="stylesheet"
 	/>
 </svelte:head>
@@ -31,12 +31,12 @@
 		<!-- 헤더 -->
 		<header class="container mx-auto px-4 py-6">
 			<nav class="flex items-center justify-between">
-				<div class="text-2xl font-bold text-black">유메아</div>
-				<div class="hidden space-x-8 md:flex">
+				<div class="text-2xl font-bold text-black">YUMEA</div>
+				<!-- <div class="hidden space-x-8 md:flex">
 					<a href="/" class="text-gray-700 transition-colors hover:text-black">홈</a>
 					<a href="/menu" class="text-gray-700 transition-colors hover:text-black">메뉴</a>
 					<a href="/about" class="text-gray-700 transition-colors hover:text-black">소개</a>
-				</div>
+				</div> -->
 			</nav>
 		</header>
 
@@ -82,7 +82,7 @@
 							></path>
 						</svg>
 					</a>
-					<a
+					<!-- <a
 						href="/about"
 						class="inline-flex items-center rounded-full border-2 border-gray-300 px-8 py-4 font-semibold text-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-black hover:text-black"
 					>
@@ -94,7 +94,7 @@
 							></path>
 						</svg>
 						더 알아보기
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</main>
@@ -115,12 +115,17 @@
 						<div
 							class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-black"
 						>
-							<svg class="h-8 w-8 text-black" fill="currentColor" viewBox="0 0 20 20">
-								<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							<svg
+								class="h-8 w-8 text-black"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+								style="display: block; margin: auto;"
+							>
+								<path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path>
 							</svg>
 						</div>
 						<h3 class="mb-4 text-xl font-bold text-black">전문적인 진단</h3>
-						<p class="text-gray-700">
+						<p class="break-keep text-gray-700">
 							개인별 두피 상태를 정확히 분석하여 맞춤형 케어 프로그램을 제공합니다.
 						</p>
 					</div>
@@ -130,16 +135,14 @@
 						<div
 							class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-black"
 						>
-							<svg class="h-8 w-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+							<svg class="h-8 w-8 text-black" fill="currentColor" viewBox="0 0 24 24">
 								<path
-									fill-rule="evenodd"
-									d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-									clip-rule="evenodd"
+									d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
 								></path>
 							</svg>
 						</div>
 						<h3 class="mb-4 text-xl font-bold text-black">따뜻한 케어</h3>
-						<p class="text-gray-700">
+						<p class="break-keep text-gray-700">
 							마음까지 편안해지는 따뜻한 서비스로 진정한 휴식을 경험하세요.
 						</p>
 					</div>
@@ -149,16 +152,12 @@
 						<div
 							class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-black"
 						>
-							<svg class="h-8 w-8 text-black" fill="currentColor" viewBox="0 0 20 20">
-								<path
-									fill-rule="evenodd"
-									d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-									clip-rule="evenodd"
-								></path>
+							<svg class="h-8 w-8 text-black" fill="currentColor" viewBox="0 0 24 24">
+								<path d="M7 2v11h3v9l7-12h-4l4-8z"></path>
 							</svg>
 						</div>
 						<h3 class="mb-4 text-xl font-bold text-black">효과적인 결과</h3>
-						<p class="text-gray-700">
+						<p class="break-keep text-gray-700">
 							과학적이고 체계적인 관리로 건강하고 아름다운 모발을 만들어드립니다.
 						</p>
 					</div>
@@ -169,20 +168,20 @@
 		<!-- 푸터 -->
 		<footer class="border-t border-gray-200 py-12">
 			<div class="container mx-auto px-4 text-center">
-				<div class="mb-6">
+				<!-- <div class="mb-6">
 					<h3 class="mb-2 text-2xl font-bold text-black">유메아</h3>
 					<p
 						class="text-gray-600"
-						style="font-family: 'Dancing Script', cursive; font-size: 1.5rem; color: #D4AF37;"
+						style="font-family: 'Nanum Pen Script', cursive; font-size: 1.5rem; color: #374151;"
 					>
 						꿈을 꾸는 곳
 					</p>
-				</div>
-				<div class="mb-6 flex justify-center space-x-8">
+				</div> -->
+				<!-- <div class="mb-6 flex justify-center space-x-8">
 					<a href="/" class="text-gray-600 transition-colors hover:text-black">홈</a>
 					<a href="/menu" class="text-gray-600 transition-colors hover:text-black">메뉴</a>
 					<a href="/about" class="text-gray-600 transition-colors hover:text-black">소개</a>
-				</div>
+				</div> -->
 				<p class="text-sm text-gray-500">© 2025 Yumea. All rights reserved.</p>
 			</div>
 		</footer>
