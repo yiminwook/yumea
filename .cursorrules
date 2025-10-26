@@ -1,0 +1,71 @@
+# Yumea Design System Rules
+
+## 🎨 Color Scheme
+
+- **Primary**: Black & White only
+- **Background**: White with paper texture
+- **Text**: Black (#000000) for headings, Gray (#374151) for body text
+- **Accent**: Gold (#D4AF37) for brand highlights only
+- **Borders**: Gray (#E5E7EB) for subtle boundaries
+
+## 🚫 Avoid These UI Patterns
+
+- **NO Card UI**: Remove all card backgrounds, shadows, and rounded corners
+- **NO Colorful backgrounds**: No gradients, colored backgrounds, or vibrant colors
+- **NO Colorful buttons**: Use only black/white with borders or shadows
+- **NO Colorful badges**: Use border-only styling with gray text
+
+## ✅ Preferred UI Patterns
+
+- **Boundary-only design**: Use only bottom borders (`border-b-2 border-gray-200`) for sections
+- **Clean layouts**: Minimal visual noise, focus on typography and spacing
+- **Black outlines**: Use `border-2 border-black` for icons and important elements
+- **Subtle shadows**: Use `shadow-lg` sparingly for depth
+
+## 🎯 Brand Elements
+
+- **Logo**: "유메아" in black, bold typography
+- **Tagline**: "꿈을 꾸는 곳" in Dancing Script font, gold color (#D4AF37)
+- **Typography**: Use Dancing Script for brand highlights only
+
+## 📱 Responsive Design
+
+- **Desktop**: 2-column layouts where appropriate
+- **Mobile**: Single column, full-width layouts
+- **Spacing**: Generous padding and margins for breathing room
+
+## 🎨 Background Textures
+
+- **Paper texture**: Use SVG data URLs with subtle opacity (20%)
+- **Consistent**: Same paper texture across all pages
+- **White base**: Always use white background with texture overlay
+
+## 🔧 Technical Implementation
+
+- **Tailwind CSS**: Use utility classes for all styling
+- **No custom CSS**: Avoid custom stylesheets, use Tailwind utilities
+- **Consistent spacing**: Use standard Tailwind spacing scale
+- **Accessibility**: Maintain proper contrast ratios with black/white scheme
+
+## 📋 Component Guidelines
+
+- **Buttons**: Black border, white background, hover effects with color inversion
+- **Navigation**: Simple text links with hover states
+- **Sections**: Bottom borders only, no card styling
+- **Icons**: Black fill, consistent sizing
+- **Badges**: Border-only styling, no background colors
+
+## 🎨 Visual Hierarchy
+
+- **Headings**: Bold black text, clear size differentiation
+- **Body text**: Gray for readability
+- **Accents**: Gold only for brand elements
+- **Spacing**: Generous whitespace for clean appearance
+
+## 🚀 Performance
+
+- **Optimize images**: Use appropriate formats and sizes
+- **Minimal assets**: Keep design simple and lightweight
+- **Fast loading**: Prioritize performance over visual complexity
+
+Remember: This is a premium, minimalist brand. Every design decision should reinforce the black & white aesthetic while using gold sparingly for brand moments.
