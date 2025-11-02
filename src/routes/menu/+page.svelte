@@ -69,7 +69,7 @@
 								clip-rule="evenodd"
 							></path>
 						</svg>
-						<span class="text-xl font-bold">90,000원</span>
+						<span class="text-xl font-bold">단발 110,000원 / 장발 120,000원</span>
 					</div>
 					<!-- <div
 						class="inline-block border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
@@ -465,7 +465,7 @@
 								clip-rule="evenodd"
 							></path>
 						</svg>
-						<span class="text-xl font-bold">100,000원</span>
+						<span class="text-xl font-bold">150,000원</span>
 					</div>
 					<!-- <div
 						class="inline-block rounded-lg border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700"
